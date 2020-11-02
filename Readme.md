@@ -7,13 +7,16 @@ Personnal page with all the countdowns I want to track.
 
 ## Repo Structure
 
-### `_site.yaml` (required)
+### `source/_site.yaml` (required)
 
 Website generation metadata. Options can be found here: https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#rmarkdown-site
 
-### `index.Rmd` (required)
+### `source/index.Rmd` (required)
 
 Website landing page. Here, it contains our countdowns
+
+### `.nojekyll` (required)
+This file tells Github to render page without using Jekkyl.
 
 ### `/docs` (generated)
 
