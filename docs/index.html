@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>⏳ MY COUNTDOWNS ⏳</title>
+
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/flipdown-0.3.2/flipdown.min.css" rel="stylesheet" />
+<script src="site_libs/flipdown-0.3.2/flipdown.min.js"></script>
+
+
+
+
+
+<link rel="stylesheet" href="index_files/style.css" type="text/css" />
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<div id="container">
+<div class="inner">
+<header>
+<h1 class="title toc-ignore">⏳ MY COUNTDOWNS ⏳</h1>
+</header>
+
+<hr>
+
+
+
+<style type="text/css">
+
+h1.title {
+font-size: 38px;
+color: DarkRed;
+text-align: center;
+}
+
+h1 {
+font-size: 25px;
+text-align: center;
+}
+
+</style>
+<div id="untill" class="section level1">
+<h1>UNTILL 🎅</h1>
+<div align="center">
+<div id="Christmas" class="flipdown"></div>
+<script>
+// Set up FlipDown
+const flipdown_Christmas = new FlipDown(  1608850800, 'Christmas',{
+
+  theme: 'dark',
+
+  headings: ["Days","Hours","Minutes","Seconds"],
+
+})
+
+  // Start the countdown
+  .start()
+
+  // Do something when the countdown ends
+  .ifEnded(() => {
+    console.log('The countdown has ended!');
+  });
+
+</script>
+</div>
+<hr />
+</div>
+<div id="untill-1" class="section level1">
+<h1>UNTILL 🎂</h1>
+<div align="center">
+<div id="birthday" class="flipdown"></div>
+<script>
+// Set up FlipDown
+const flipdown_birthday = new FlipDown(  1631829600, 'birthday',{
+
+  theme: 'dark',
+
+  headings: ["Days","Hours","Minutes","Seconds"],
+
+})
+
+  // Start the countdown
+  .start()
+
+  // Do something when the countdown ends
+  .ifEnded(() => {
+    console.log('The countdown has ended!');
+  });
+
+</script>
+</div>
+<hr />
+</div>
+</div>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

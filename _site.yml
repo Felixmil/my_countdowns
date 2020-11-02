@@ -1,0 +1,6 @@
+name: "Countdown to Christmas"
+output_dir: "docs"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
