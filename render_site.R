@@ -1,5 +1,5 @@
 require(rmarkdown)
 
-clean_site()
+clean_site("source")
 
-render_site("index.Rmd")
+render_site(input = "source", encoding = "UTF-8")
